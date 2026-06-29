@@ -79,7 +79,7 @@ You never configure any of it.
 
 Sign up free at [app.databaset.com](https://app.databaset.com/signup). No credit card required.
 
-Free tier includes **10,000 memories** and **1,000 recalls per month**.
+Free tier includes **3,000 API calls per month**.
 
 ### 2. Install an SDK
 
@@ -289,7 +289,7 @@ curl "https://api.databaset.com/v1/memories/recall?userId=user_123&query=prefere
 
 | Plan | Price | Highlights |
 |---|---|---|
-| **Free** | $0 | 10,000 memories, 1 app, full API |
+| **Free** | $0 | 3,000 API calls/mo, 1 app, full API |
 | **Starter** | $29/mo | ≈ 100k users worth of storage, 10 apps |
 | **Growth** | $99/mo | ≈ 1M users worth of storage, priority support |
 | **Enterprise** | Custom | Self-host option, SLA, dedicated support |
@@ -355,6 +355,7 @@ Point at a local backend with `DATABASET_API_URL=http://localhost:8085`.
 | API | [api.databaset.com](https://api.databaset.com) |
 | Changelog | [databaset.com/changelog](https://databaset.com/changelog) |
 | X / Twitter | [@Data_bataset](https://x.com/Data_bataset) |
+| GitHub | [github.com/databaset-official/databaset](https://github.com/databaset-official/databaset) |
 | Support | [app@databaset.com](mailto:app@databaset.com) |
 
 ---
