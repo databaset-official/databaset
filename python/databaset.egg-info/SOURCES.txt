@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+databaset/__init__.py
+databaset/client.py
+databaset/errors.py
+databaset/memory.py
+databaset.egg-info/PKG-INFO
+databaset.egg-info/SOURCES.txt
+databaset.egg-info/dependency_links.txt
+databaset.egg-info/requires.txt
+databaset.egg-info/top_level.txt
