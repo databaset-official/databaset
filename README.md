@@ -79,7 +79,7 @@ You never configure any of it.
 
 Sign up free at [app.databaset.com](https://app.databaset.com/signup). No credit card required.
 
-Free tier includes **3,000 API calls per month**.
+Free tier includes **3,000 API calls in your first month** (not monthly after that).
 
 ### 2. Install an SDK
 
@@ -289,7 +289,7 @@ curl "https://api.databaset.com/v1/memories/recall?userId=user_123&query=prefere
 
 | Plan | Price | Highlights |
 |---|---|---|
-| **Free** | $0 | 3,000 API calls/mo, 1 app, full API |
+| **Free** | $0 | 3,000 API calls in month 1, 1 app, full API |
 | **Starter** | $29/mo | ≈ 100k users worth of storage, 10 apps |
 | **Growth** | $99/mo | ≈ 1M users worth of storage, priority support |
 | **Enterprise** | Custom | Self-host option, SLA, dedicated support |
