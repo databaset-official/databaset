@@ -231,8 +231,6 @@ Both SDKs talk to the same REST API at `https://api.databaset.com`.
 </script>
 ```
 
-Live browser test: [api.databaset.com/memory-test.html](https://api.databaset.com/memory-test.html)
-
 ---
 
 ## Use cases

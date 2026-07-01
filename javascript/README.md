@@ -7,7 +7,7 @@ Default API: **`https://api.databaset.com`**
 ## Node / bundlers
 
 ```bash
-npm install ./sdks/javascript
+npm install @databaset/sdk
 ```
 
 ```javascript
@@ -37,10 +37,13 @@ const memory = new Memory({
 <script src="https://api.databaset.com/sdk/databaset.js"></script>
 <script>
   const memory = new Databaset.Memory({
-    apiKey: "db_...",
+    apiKey: "db_your_key",
     baseUrl: "https://api.databaset.com",
   });
+
+  await memory.store({ userId: "user_123", text: "Prefers dark mode" });
+  const context = await memory.recall({ userId: "user_123", query: "editor" });
 </script>
 ```
 
-Test page: [https://api.databaset.com/memory-test.html](https://api.databaset.com/memory-test.html)
+Never commit API keys. Use environment variables on the server or inject keys at runtime in the browser.

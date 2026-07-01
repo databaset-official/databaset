@@ -1,7 +1,21 @@
 {
   "name": "@databaset/sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Official Databaset memory SDK for Node.js and browsers",
+  "keywords": [
+    "databaset",
+    "ai-memory",
+    "llm-memory",
+    "memory-api",
+    "persistent-memory",
+    "semantic-search",
+    "vector-database",
+    "rag",
+    "openai",
+    "claude",
+    "agent-memory",
+    "user-context"
+  ],
   "type": "module",
   "main": "./src/index.js",
   "exports": {
@@ -14,5 +28,11 @@
     "src",
     "dist"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/databaset-official/databaset.git",
+    "directory": "javascript"
+  },
+  "homepage": "https://github.com/databaset-official/databaset#readme"
 }
